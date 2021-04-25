@@ -19,7 +19,7 @@
     "phaser": "^3.24.1"
   },
   "scripts": {
-    "dev": "webpack --mode development && webpack-dev-server --mode development",
+    "dev": "webpack --mode development && webpack-dev-server --mode development --hot --inline",
     "build": "webpack --mode production && webpack-dev-server --mode production"
   }
 }
